@@ -1,0 +1,62 @@
+/*created by PREETISH VIJ on 06 July,2018*/
+html
+/*styling specifications for content in body*/
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*styling specifications for content in the class-options-box*/
+.options-box {
+    background: #fff;
+    border: 1px solid #999;
+    width: 400px;
+    padding: 32px
+}
+
+/*styling specifications for content in the class-container*/
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+/*styling specifications for content in the class-filter-place*/
+.filter-place {
+    width: 80%;
+    padding: 8px;
+    line-height: 32px;
+}
+
+/*styling specifications for the input given by user*/
+input {
+    font-size: 12px;
+}
+
+/*styling specifications for heading element */
+h1 {
+    color: #525454;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+/*styling specifications for content in the id-map*/
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/*Media Queries*/
+
+@media (max-width: 960px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .options-box{
+        border: 0;
+    }
+}
+/*END*/
